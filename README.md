@@ -61,3 +61,18 @@ pip install -r requirements
 ```bash
 python3 merge.py -ci example/Alkanes_1ng_3_CI.cdf -ei example/Alkanes_1ng_3_EI.cdf -o merge.csv
 ```
+
+
+### Results
+
+the result file, is a comma seperated file (CSV) which contains 3 columns
+
+1. the CI Spectra
+2. the EI Spectra
+3. the merged Spectra
+
+### Visualization
+
+You can use the BinView tool, to visualize the spectra one at a time
+
+![img.png](img.png)
